@@ -1,0 +1,22 @@
+{
+  "name": "tiantian",
+  "version": "1.0.0",
+  "description": "天天基金数据抓取",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg -t node14-mac,node14-win index.js -o ./dist/tiantian"
+  },
+  "keywords": [],
+  "author": "haloislet",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "dayjs": "^1.10.2",
+    "inquirer": "^7.3.3",
+    "node-xlsx": "^0.15.0",
+    "ora": "^5.2.0",
+    "pkg": "^4.4.9"
+  }
+}
